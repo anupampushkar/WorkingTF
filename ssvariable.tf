@@ -6,3 +6,8 @@ variable "network_resource_group_name" {
 
 
 
+variable "location" {
+  type        = string
+  description = "The location where the resource group should be created."
+  default     = "UAE North"
+}
