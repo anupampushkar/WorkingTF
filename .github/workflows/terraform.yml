@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 env:
-  ROOT_PATH: '../'
+  ROOT_PATH: '/'
 
 jobs:
   terraform:
